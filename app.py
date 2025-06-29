@@ -16,7 +16,9 @@ def fetch():
         'skip_download': True,
         'quiet': True,
         'no_warnings': True,
-        'simulate': True
+        'simulate': True,
+        'cookiefile': 'cookies.txt',
+        
     }
 
     try:
